@@ -45,6 +45,25 @@ SMOTEENN Model
 * The high_risk precision is still about 1% while the sensitivity is 69%. Thus, results in an F1 score of only 2%.
 * The low_risk sensitivity is a low 62%.
 
+BalancedRandomForest Classifier Model
 
+![image](https://user-images.githubusercontent.com/96553992/167740200-b6bb3bc0-b742-4898-97c6-3b19a44a7f3e.png)
+
+* The accuracy of the model is the higher than the preivous mentioned at 79%.
+* The high_risk precision continues ot be low at 4%  whith 67% sensitivity which leads to an F1 score of 7%.
+* The low_risk sensitivity is 91% with 100% precision. This is due to the low number of false postives.
+
+EasyEnsembleClassifier model
+
+![image](https://user-images.githubusercontent.com/96553992/167740960-8692d0c0-7e48-4fe1-8cc4-0a61224797bd.png)
+
+* The accuracy score is the highest out of all the model at 93%.
+* The high_risk precision is still low at 7% but has a 91% sensitivity leading to a F1 score of 14%
+* Low_risk sensitivity is at 94% and 100% precision. This primarily is because of the low amount of false positives in this model.
+
+
+Summary
+
+Through all of the models used to perfrom credit risk analysis, there was weak permission in determining if credit risk is high. The Ensemble models imporoved the sensitivity of the high rrisk determination substantially. Specifically, the EasyEnsemble model returned a 91% sensitivty for high_risk which means almost all high risk credit was determined. Even though the sensitivity was favorable, the low precision for high risk was still very low. Therefore, the outcome of this model still detect some low risk credits to be falsely detected high risk. This would result in the bank losing revenue by missing out on good candidates for loans. For the purpose of credit risk determining, a low precision rate is not tolerable as it will lead to missed oppotunities. I would not recommend any of the models to predict credit risk for these reasons. Some other models would has to be tested or perhaps other features for determining credit risk would have to be accounted for in future models.
 
 
