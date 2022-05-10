@@ -2,7 +2,7 @@
 
 ##Overview of the Analysis
 
-The purpose of this project is to build and evaluate several machine learning models to predict credit risk through the use of Python. After evaluating each model, a recommendation on which one is the best fit to predict credit risk.
+The purpose of this project is to build and evaluate several machine learning models to predict credit risk using Python. After evaluating each model, a recommendation will be provided to the bank on which model is the best fit to predict credit risk.
 
 Resources used:
 * Data Source: LoanStats_2019Q1
@@ -17,7 +17,7 @@ Resources used:
 
 * The accuracy score for the model is 65%.
 * The high risk precision is about 1% and only 62% sensitivity which makes a F1 score of 2%.
-* The high number of low risk population, its precision almost 100% with a sensitivty score 68%.
+* The high number of low risk population, its precision almost 100% with a sensitivity score 68%.
 
 SMOTE Model
 
@@ -26,7 +26,7 @@ SMOTE Model
 * The results are fairly similar to the previous model.
 * The balanced accuracy score is 62%.
 * The high_risk precision is about 1% with about 61% sensitivity.
-* As a result of the high number of low_risk population, the precision is almost 100% with a sensitivty of 64%.
+* As a result of the high number of low_risk population, the precision is almost 100% with a sensitivity of 64%.
 
 ClusterCentroids Model
 
@@ -34,14 +34,14 @@ ClusterCentroids Model
 
 * In this model, the accuracy score is lower compared to previous models at 51%.
 * The high_risk precision continues to be at about 1% with an F1 score around 1%.
-* The high number of false positives lead the low sentiivty risk to be a low 44%.
+* The high number of false positives leads to a low sensitivity risk of 44%.
 
 
 SMOTEENN Model
 
 ![image](https://user-images.githubusercontent.com/96553992/167738819-a8f0e95a-fb7a-4358-b107-1ca7f69657c4.png)
 
-* The acccuracy score for this model is 65%.
+* The accuracy score for this model is 65%.
 * The high_risk precision is still about 1% while the sensitivity is 69%. Thus, results in an F1 score of only 2%.
 * The low_risk sensitivity is a low 62%.
 
@@ -49,21 +49,21 @@ BalancedRandomForest Classifier Model
 
 ![image](https://user-images.githubusercontent.com/96553992/167740200-b6bb3bc0-b742-4898-97c6-3b19a44a7f3e.png)
 
-* The accuracy of the model is the higher than the preivous mentioned at 79%.
-* The high_risk precision continues ot be low at 4%  whith 67% sensitivity which leads to an F1 score of 7%.
-* The low_risk sensitivity is 91% with 100% precision. This is due to the low number of false postives.
+* The accuracy of the model is the higher than the previous mentioned at 79%.
+* The high_risk precision continues to be low at 4%  with 67% sensitivity which leads to an F1 score of 7%.
+* The low_risk sensitivity is 91% with 100% precision. This is due to the low number of false positives.
 
 EasyEnsembleClassifier model
 
 ![image](https://user-images.githubusercontent.com/96553992/167740960-8692d0c0-7e48-4fe1-8cc4-0a61224797bd.png)
 
 * The accuracy score is the highest out of all the model at 93%.
-* The high_risk precision is still low at 7% but has a 91% sensitivity leading to a F1 score of 14%
-* Low_risk sensitivity is at 94% and 100% precision. This primarily is because of the low amount of false positives in this model.
+* The high_risk precision is still low at 7% but has a 91% sensitivity leading to a F1 score of 14%.
+* Low_risk sensitivity is at 94% and 100% precision. This primarily is because of the low number of false positives in this model.
 
 
 Summary
 
-Through all of the models used to perfrom credit risk analysis, there was weak permission in determining if credit risk is high. The Ensemble models imporoved the sensitivity of the high rrisk determination substantially. Specifically, the EasyEnsemble model returned a 91% sensitivty for high_risk which means almost all high risk credit was determined. Even though the sensitivity was favorable, the low precision for high risk was still very low. Therefore, the outcome of this model still detect some low risk credits to be falsely detected high risk. This would result in the bank losing revenue by missing out on good candidates for loans. For the purpose of credit risk determining, a low precision rate is not tolerable as it will lead to missed oppotunities. I would not recommend any of the models to predict credit risk for these reasons. Some other models would has to be tested or perhaps other features for determining credit risk would have to be accounted for in future models.
+Through all the models used to perform credit risk analysis, there was weak precision in determining if credit risk is high. The Ensemble models improved the sensitivity of the high_risk substantially. Specifically, the EasyEnsemble model returned a 91% sensitivity for high_risk which means almost all high_risk credit was determined. Even though the sensitivity was favorable, the low precision for high_risk was still very low. Therefore, the outcome of this model still detects some low risk credit to be falsely determined as high_risk. This would result in the bank losing revenue by missing out on good candidates for loans. For the purpose of credit risk determining, a low precision rate is not tolerable as it will lead to missed lending opportunities. I would not recommend any of the models to predict credit risk for these reasons. Some other models would have to be tested or perhaps other features for determining credit risk would have to be accounted for in future models.
 
 
