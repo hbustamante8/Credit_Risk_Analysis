@@ -24,7 +24,7 @@ SMOTE Model
 ![image](https://user-images.githubusercontent.com/96553992/167732926-deedc72e-7b2e-4e49-a8cd-d43629913f67.png)
 
 * The results are fairly similar to the previous model.
-* The balanced accuracy score is 62%
+* The balanced accuracy score is 62%.
 * The high_risk precision is about 1% with about 61% sensitivity.
 * As a result of the high number of low_risk population, the precision is almost 100% with a sensitivty of 64%.
 
@@ -38,5 +38,13 @@ ClusterCentroids Model
 
 
 SMOTEENN Model
+
+![image](https://user-images.githubusercontent.com/96553992/167738819-a8f0e95a-fb7a-4358-b107-1ca7f69657c4.png)
+
+* The acccuracy score for this model is 65%.
+* The high_risk precision is still about 1% while the sensitivity is 69%. Thus, results in an F1 score of only 2%.
+* The low_risk sensitivity is a low 62%.
+
+
 
 
