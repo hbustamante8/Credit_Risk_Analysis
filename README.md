@@ -64,6 +64,10 @@ EasyEnsembleClassifier model
 
 Summary
 
-Through all the models used to perform credit risk analysis, there was weak precision in determining if credit risk is high. The Ensemble models improved the sensitivity of the high_risk substantially. Specifically, the EasyEnsemble model returned a 91% sensitivity for high_risk which means almost all high_risk credit was determined. Even though the sensitivity was favorable, the low precision for high_risk was still very low. Therefore, the outcome of this model still detects some low risk credit to be falsely determined as high_risk. This would result in the bank losing revenue by missing out on good candidates for loans. For the purpose of credit risk determining, a low precision rate is not tolerable as it will lead to missed lending opportunities. Out of all these models, the Easy Ensemble AdaBoost Classifer would be my recommendationas it showed the highest performance
+Through all the models used to perform credit risk analysis, there was weak precision in determining if credit risk is high. The Ensemble models improved the sensitivity of the high_risk substantially. Specifically, the EasyEnsemble model returned a 91% sensitivity for high_risk which means almost all high_risk credit was determined. Even though the sensitivity was favorable, the low precision for high_risk was still very low. Therefore, the outcome of this model still detects some low risk credit to be falsely determined as high_risk. This would result in the bank losing revenue by missing out on good candidates for loans. For the purpose of credit risk determining, a low precision rate is not tolerable as it will lead to missed lending opportunities. Out of all these models, the Easy Ensemble AdaBoost Classifer would be my recommendationas for the following reasons
+  * The balanced accuracy score was about 93% compared to all the other tested models
+  * The precision score for low-risk applications is 1.00 in all the models 
+  * The precision score for high-risk applications is the highest for EasyEnsemble model (0.08), indicating the lowst number of false positives
+  * EasyEnsemble model has the highest recall score for both high and low-risk applications(0.91 and 0.94, respectively)
 
 
