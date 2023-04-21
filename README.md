@@ -68,7 +68,7 @@ Through all the models used to perform credit risk analysis, there was weak prec
 
   * The balanced accuracy score was about 93% compared to all the other tested models
   * The precision score for low-risk applications is 1.00 in all the models 
-  * The precision score for high-risk applications is the highest for EasyEnsemble model (0.08), indicating the lowst number of false positives
+  * The precision score for high-risk applications is the highest for EasyEnsemble model (0.07), indicating the lowst number of false positives
   * EasyEnsemble model has the highest recall score for both high and low-risk applications(0.91 and 0.94, respectively)
 
 
