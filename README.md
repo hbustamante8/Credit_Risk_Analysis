@@ -72,3 +72,4 @@ Through all the models used to perform credit risk analysis, there was weak prec
   * EasyEnsemble model has the highest recall score for both high and low-risk applications(0.91 and 0.94, respectively)
 
 
+
