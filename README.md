@@ -2,7 +2,7 @@
 
 ## Overview of the Analysis
 
-Fast Lending, a peer-to-peer lending services company wants to use machine learning to predict credit risk. As a data scientist, the purpose of this project is to build and evaluate several machine learning models to predict credit risk using Python to aid Fast. After evaluating each model, a recommendation will be provided to Fast Lending on which model is the best fit to predict credit risk.
+Fast Lending, a peer-to-peer lending services company wants to use machine learning to predict credit risk. As a data scientist, the purpose of this project is to build and evaluate several machine learning models to predict credit risk using Python to aid Fast Lending. After evaluating each model, a recommendation will be provided to Fast Lending on which model is the best fit to predict credit risk.
 
 Resources used:
 * Data Source: LoanStats_2019Q1
